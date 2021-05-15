@@ -56,6 +56,76 @@ class HomePage extends StatelessWidget {
                 ],
               ),
             ),
+            SizedBox(
+              height: 30,
+            ),
+            Padding(
+              padding: EdgeInsets.symmetric(
+                horizontal: 30,
+              ),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  Column(
+                    children: [
+                      Icon(
+                        Icons.call,
+                        color: Color(0XFF00A3FF),
+                        size: 18,
+                      ),
+                      SizedBox(
+                        height: 10,
+                      ),
+                      Text(
+                        'CALL',
+                        style: TextStyle(
+                          color: Color(0XFF00A3FF),
+                          fontSize: 12,
+                        ),
+                      ),
+                    ],
+                  ),
+                  Column(
+                    children: [
+                      Icon(
+                        Icons.near_me,
+                        color: Color(0XFF00A3FF),
+                        size: 18,
+                      ),
+                      SizedBox(
+                        height: 10,
+                      ),
+                      Text(
+                        'ROUTE',
+                        style: TextStyle(
+                          color: Color(0XFF00A3FF),
+                          fontSize: 12,
+                        ),
+                      ),
+                    ],
+                  ),
+                  Column(
+                    children: [
+                      Icon(
+                        Icons.share,
+                        color: Color(0XFF00A3FF),
+                        size: 18,
+                      ),
+                      SizedBox(
+                        height: 10,
+                      ),
+                      Text(
+                        'SHARE',
+                        style: TextStyle(
+                          color: Color(0XFF00A3FF),
+                          fontSize: 12,
+                        ),
+                      ),
+                    ],
+                  ),
+                ],
+              ),
+            ),
           ],
         ),
       ),
